@@ -1,0 +1,8 @@
+Bundle-Description: Overrides core/kernel JSPs by providing new JSPs in the META-INF/jsps folder.
+Bundle-SymbolicName: com.radionama.schema
+Bundle-Version: 1.0.0
+-sources: true
+Export-Package: \
+	com.radionama.schema.hook.portlet,\
+	com.radionama.schema.hook.constants,\
+	com.radionama.schema.type
